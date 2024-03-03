@@ -1,0 +1,17 @@
+array = think of it as a variable
+	that can store multiple values
+
+
+let fruits = ["mango", "apple", "orange"];
+
+//fruits[2] = "kiwi";      adds variable at the index  
+
+//fruits.push("lemon");      adds new variable at the last
+
+//fruits.pop();              removes last variable
+
+//fruits.unshift("strawberry"); adds variable at the beginning
+
+//fruits.shift();                removes first element
+
+console.log(fruits);

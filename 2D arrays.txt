@@ -1,0 +1,19 @@
+2D array = An array of arrays
+
+
+
+let fruits =     ["apple", "orange", "mangoes"];
+let vegetables = ["tomatoes", "lettuce", "onion"];
+let meats =      ["chicken", "eggs", "fish"];
+
+
+let groceryList = [fruits, vegetables, meats];
+
+groceryList[0][0] = "kiwi";  // to update the array using [][] as row and column number
+
+
+for(let list of groceryList){
+    for(let food of list){
+        console.log(food);
+    }
+}
